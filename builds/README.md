@@ -18,3 +18,10 @@ All the usual benefits of Docker apply: reproducibility, portable builds, reduce
 All our Docker images live in the [wellcometrust/dockerfiles](https://github.com/wellcometrust/dockerfiles) repo, and they get automatically published to the [wellcome organisation on Docker Hub](https://hub.docker.com/u/wellcome).
 
 If you're trying to work out what a particular Docker image does, looking in that repo is a good place to start.
+
+
+## The lifecycle of a Docker image
+
+All our platform apps are published as Docker images in ECR.
+
+For a walkthrough of how that works, see the [lifecycle of a Docker image](lifecycle-of-a-docker-image.md).
